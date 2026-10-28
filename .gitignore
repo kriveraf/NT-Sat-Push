@@ -1,0 +1,7 @@
+.claude/settings.local.json
+_bmad/config.user.toml
+_bmad/custom/*.user.toml
+# Never commit OTA key material or manufacturer output files
+*.OUT
+*.out
+*.sec.xml
