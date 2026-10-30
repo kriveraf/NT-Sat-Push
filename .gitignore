@@ -5,3 +5,5 @@ _bmad/custom/*.user.toml
 *.OUT
 *.out
 *.sec.xml
+*.card.xml
+.DS_Store
