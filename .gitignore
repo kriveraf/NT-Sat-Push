@@ -5,3 +5,8 @@ _bmad/custom/*.user.toml
 *.OUT
 *.out
 *.sec.xml
+# Network captures: they hold MSISDNs, SMPP credentials and OTA traffic
+*.pcap
+*.pcapng
+*.cap
+*.etl
