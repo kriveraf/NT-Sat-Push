@@ -1,0 +1,4 @@
+# Files deployed to Linux servers must keep LF line endings on every checkout,
+# including Windows clones with core.autocrlf=true.
+*.sh       text eol=lf
+*.sudoers  text eol=lf

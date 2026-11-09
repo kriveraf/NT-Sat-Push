@@ -1,0 +1,11 @@
+# /etc/sudoers.d/aircast-capture
+# Instalar con:   visudo -f /etc/sudoers.d/aircast-capture
+# Validar con:    visudo -cf /etc/sudoers.d/aircast-capture
+#
+# Vigente solo durante la ventana de captura aprobada (procedimiento de captura
+# remota de Aircast, Fase 0). Al cerrar la ventana, borrar este archivo.
+# Las cuentas son personales y pertenecen al grupo aircast-cap.
+
+Cmnd_Alias AIRCAST_CAP = /usr/local/sbin/aircast-capture
+Defaults!AIRCAST_CAP !requiretty
+%aircast-cap ALL=(root) NOPASSWD: AIRCAST_CAP
